@@ -1,0 +1,161 @@
+*{
+    font-family: 'Tajawal', sans-serif;
+font-family: 'Work Sans', sans-serif;
+/* font-size: 30px; */
+
+
+
+
+}
+body {
+    color: #333;
+    background: #f9b624;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* Start Header */
+ 
+  .header {
+    padding: 0px;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    width: 300px;
+    margin-left:-50px;
+  }
+  
+  
+  .header .links ul {
+    list-style: none;
+    margin: 20px;
+    min-width: 200px;
+    display: flex;
+    
+  }
+ 
+  .header .links ul li a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color:#333;
+    margin-left :70px;
+    background-color:var( --main-color);
+    border-radius: 30px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 30%);
+  
+  }
+  .header .links ul li a:hover {
+  background-color: #777;
+  }
+  /* End Header */
+
+
+
+.blog
+{
+    width: 90%;
+    margin: 50px auto;
+    color: #010c0c;
+    line-height: 1,8px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+
+}
+.container{
+align-self: center;
+text-align: center;
+justify-content: center;
+display: flex;
+
+}
+h1,h2{
+ text-align: center;
+    
+}
+
+h1 {
+ margin: 0px 30px;
+    font-size: 70px;
+    text-align: center;
+
+ 
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    
+}
+
+h2 {
+    color: #B34286;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+  }
+p{
+    text-align: right;
+}
+
+.par{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    /* margin-top: 80px; */
+}
+.name{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 90px;
+  /* margin-top: 80px; */
+}
+/* Start Footer */
+.footer {
+    background-color:#ccab29 ;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0px;
+    bottom: 0px;
+  }
+  .footer span {
+    font-weight: bold;
+    color: var(--main-color);
+  }
+  /* End Footer */
+  

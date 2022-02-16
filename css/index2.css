@@ -1,0 +1,215 @@
+
+*{
+    font-family: 'Tajawal', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-size: 20px;
+
+
+
+
+}
+body {
+    color: #333;
+    background: #f9b624;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+/* Start Header */
+ 
+.header {
+    padding: 0px;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    width: 300px;
+    margin-left:-50px;
+  }
+  
+  
+  .header .links ul {
+    list-style: none;
+    margin: 20px;
+    min-width: 200px;
+    display: flex;
+    
+  }
+ 
+  .header .links ul li a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color:#333;
+    margin-left :70px;
+    background-color:var( --main-color);
+    border-radius: 30px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 30%);
+  
+  }
+  .header .links ul li a:hover {
+  background-color: #777;
+  }
+  /* End Header */
+
+.pages-form tbody td:nth-child(1) {
+    text-align: center;
+    color: #2f2f2f;
+    font-size: 16px;
+    border: 1px solid #b4b4b4;
+    width: 10%
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-indent: initial;
+    border: 1px solid #d6d6d6;
+    overflow: hidden;
+    text-align: right;
+    direction: rtl;
+    margin: 20px 120px;
+    padding: 10px 0;
+    line-height: 44px;
+    width: 80%;
+    background: #f1f0ee;
+
+
+}
+.pages-form thead th:nth-child(1) {
+    background: #B34286;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 20%;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+}
+.pages-form thead th:nth-child(2) {
+    background: #B34286;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 20%;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+}
+.pages-form thead th:nth-child(3) {
+    background: #B34286;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 20%;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+}
+.pages-form thead th:nth-child(4) {
+    background: #B34286;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 20%;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+}
+.pages-form thead th:nth-child(5) {
+       
+        background: #B34286;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 20%;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.pages-form tbody td:nth-child(2) {
+    text-align: center;
+    color: #2f2f2f;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+    width: 20%;
+    text-align: right;
+}
+.pages-form tbody td {
+    padding: 5px;
+}
+
+.pages-form tbody td:nth-child(4) {
+    text-align: center;
+    color: #2f2f2f;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #b4b4b4;
+    width: 20%;}
+    .pages-form tbody td:nth-child(5) {
+        text-align: center;
+        color: #2f2f2f;
+        font-size: 13px;
+        font-weight: 700;
+        border: 1px solid #b4b4b4;
+        width: 20%;}
+    .pages-form tbody td {
+        padding: 5px;
+    }
+    .pages-form tbody td:nth-child(3) {
+        text-align: center;
+        color: #2f2f2f;
+        font-size: 16px;
+        font-weight: 700;
+        border: 1px solid #b4b4b4;
+        width: 20%;
+    }
+    element.style {
+        float: left;
+        margin: 15px 0px;
+    }
+    .pages-form tbody i{
+        color:#B34286 ;
+    
+  font-size: 40px;
+  margin:40px;
+    }
+
+    /* Start Footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.footer span {
+  font-weight: bold;
+  color: #B34286;
+}
+/* End Footer */
